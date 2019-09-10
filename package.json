@@ -1,0 +1,19 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "a node-js task-manager application with mongo-db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinyGeorg/task-manager.git"
+  },
+  "author": "Georg Popp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinyGeorg/task-manager/issues"
+  },
+  "homepage": "https://github.com/tinyGeorg/task-manager#readme"
+}
