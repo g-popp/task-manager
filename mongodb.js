@@ -10,6 +10,12 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (err, client) => {
 	if (err) {
 		return console.error('Connection failed!');
 	} else {
-		console.log('Success connection!');
+		const db = client.db(database);
+		db.collection('users').insertOne({
+			name: 'Georg',
+			age: 19
+		});
+
+		console.log('Successfully inserted a collection');
 	}
 });
